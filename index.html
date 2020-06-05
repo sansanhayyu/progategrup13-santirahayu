@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PT Level Up Indonesia</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/stylesheet.css">
+  
+  <link rel="stylesheet" href="https://unpkg.com/basscss@8.0.2/css/basscss.min.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="./headerfooter.css">
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+  <a href="#" name="home" class="display-none">&nbsp;</a>
+  <header class="clearfix ">
+    <div class="flex flex-wrap justify-between max-width-4 mx-auto p2">
+      <div>
+        <span class="align-bottom material-icons">
+          thumb_up_alt
+        </span>
+        PT Level Up Indonesia
+      </div>
+      <nav class="xs-hide">
+        <a class="px1" href="#home">Home</a>
+        <a class="px1" href="#service">Services</a>
+        <a class="px1" href="#product">Products</a>
+        <a class="px1" href="#about">About</a>
+        <a class="px1" href="#contact">Contact</a>
+      </nav>
+      <div class="sm-hide md-hide lg-hide">
+        <span class="align-bottom material-icons" onclick="showMenu()">
+          menu
+        </span>
+      </div>
+      <div class="absolute lg-hide md-hide p2 right-0 rounded sm-hide top-0" style="display: none;" id="menu">
+        <div class="">
+          <span class="align-bottom material-icons right" onclick="closeMenu()">
+            close
+          </span>
+        </div>
+        <ul class="list-reset m0">
+          <li class="py1"><a href="#home">Home</a></li>
+          <li class="py1"><a href="#service">Services</a></li>
+          <li class="py1"><a href="#product">Products</a></li>
+          <li class="py1"><a href="#about">About</a></li>
+          <li class="py1"><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <section>
+    <div class="services-wrapper" id="service">
+      <h2>Our Services</h2>
+      <div class="services">
+        <div class="service-item">
+          <img src="img/web_developer_logo.png" alt="">
+          <div class="overlay">
+          <h3>Web Apps Developers</h3>
+          </div>
+        </div>
+        <div class="service-item">
+          <img src="img/ios_developer_logo.png" alt="">
+          <div class="overlay">
+          <h3>IOS Developers</h3>
+          </div>
+        </div>
+        <div class="service-item">
+          <img src="img/android_developer_logo.png" alt="">
+          <div class="overlay">
+          <h3>Android Developers</h3>
+          </div>
+        </div>
+        </div>
+    </div>
+    <div class="about-wrapper" id="about">
+      <h2>About Us</h2>
+      <div class="about">
+        <img src="img/coffee_wallpapper.jpg" alt="">
+        <p>PT. Level Up Indonesia adalah perusahaan pengembang Aplikasi Web, IOS dan Android.
+          Layanan kami sebagai Pengembang iOS bertanggung jawab untuk mengembangkan aplikasi untuk perangkat seluler yang diberdayakan oleh sistem operasi iOS Apple. Idealnya, pengembang iOS yang baik mahir dengan salah satu dari dua bahasa pemrograman untuk platform ini: Objective-C atau Swift. Mereka juga harus memiliki pemahaman yang kuat tentang pola dan praktik yang berputar di sekitar platform iOS.</p>
+      </div>
+    </div>
+  </section>
+  <section  class="clearfix mt3" id="product">
+    <h2 class="center mb2">Our Products</h2>
+    <div class="container mt-0">
+      <div class="row pb-5">
+        <div class="col-sm-4 col-11 mx-auto mb-4 ">
+          <div class="card">
+            <a href="http://www.unitedtractors.com/id">
+              <div class="thumbnail-st">
+              </div>
+              <img src="./img/united.jpg" class="card-img-top img-fluid" alt="...">
+            </a>
+            <div class="card-body">
+            <a href="">
+              <h1>PT United Tractors</h1>
+            </a>
+            <p class="pemateri">Designed By: <br><span>Santi Rahayu</span></p>
+            <p class="cv-pemateri"></p>
+            <hr>
+            <div class="d-flex justify-content-center pl-2 pr-2 flex-wrap">
+              <h5 class="m-1"><span class="badge keterangan1">HTML,CSS</span></h5>
+              <h5 class="m-1"><span class="badge keterangan2">JAVASCRIPT</span></h5>
+              <h5 class="m-1"><span class="badge keterangan3">BOOTSTRAP</span></h5>
+            </div>
+            <a href="http://www.unitedtractors.com/id" class="btn btn-general-st btn-block mt-2">Visit</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-11 mx-auto mb-4">
+        <div class="card">
+          <a href="https://covid19.go.id/">
+            <div class="thumbnail-st">
+            </div>
+            <img src="./img/covid1.jpg" class="card-img-top img-fluid" alt="...">
+          </a>
+          <div class="card-body">
+            <a href="">
+              <h1>COVID-19</h1>
+            </a>
+            <p class="pemateri">Designed By:<br><span>Sardi Irfansyah</span></p>
+            <p class="cv-pemateri"></p>
+            <hr>
+            <div class="d-flex justify-content-center pl-2 pr-2 flex-wrap">
+              <h5 class="m-1"><span class="badge keterangan1">HTML,CSS</span></h5>
+              <h5 class="m-1"><span class="badge keterangan2">JAVASCRIPT</span></h5>
+              <h5 class="m-1"><span class="badge keterangan3">BOOTSTRAP</span></h5>
+            </div>
+            <a href="https://covid19.go.id/" class="btn btn-general-st btn-block mt-2">Visit</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-11 mx-auto mb-4">
+        <div class="card">
+          <a href="https://inovasi.co.id/">
+            <div class="thumbnail-st">
+            </div>
+            <img src="./img/invoasi.jpg" class="card-img-top img-fluid" alt="...">
+          </a>
+          <div class="card-body">
+            <a href="">
+              <h1>PT Next Inovation</h1>
+            </a>
+            <p class="pemateri">Designed By: <br><span>Heri Wahyudianto </span></p>
+            <p class="cv-pemateri"></p>
+            <hr>
+            <div class="d-flex justify-content-center pl-2 pr-2 flex-wrap">
+              <h5 class="m-1"><span class="badge keterangan1">HTML,CSS</span></h5>
+              <h5 class="m-1"><span class="badge keterangan2">JAVASCRIPT, PHP</span></h5>
+              <h5 class="m-1"><span class="badge keterangan3">BOOTSTRAP</span></h5>
+            </div>
+            <a href="https://inovasi.co.id/" class="btn btn-general-st btn-block mt-2">Visit</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+  </section>
+  <footer>
+    <div class="flex flex-wrap justify-between max-width-4 mx-auto p2">
+      <div class="col sm-col-6 md-col-3 lg-col-3">
+        <p class="h3">PT Level Up Indonesia</p>
+        <p>
+          Perum Adyna Residense<br>
+          Malang
+        </p>
+      </div>
+      <div class="col sm-col-6 md-col-3 lg-col-3">
+        <p class="h3">Services</p>
+        <ul class="list-reset">
+          <li>Web Apps Developers</li>
+          <li>IOS Developers</li>
+          <li>Android Developers</li>
+        </ul>
+      </div>
+      <div class="col sm-col-6 md-col-3 lg-col-3">
+        <p class="h3">Products</p>
+        <ul class="list-reset">
+          <li>Accounting Apps</li>
+          <li>ERP Apps</li>
+          <li>HR Apps</li>
+        </ul>
+      </div>
+      <div class="col sm-col-6 md-col-3 lg-col-3">
+        <p class="h3">Subscribe</p>
+        <form action="#" method="POST" enctype="application/x-www-form-urlencoded">
+          <input type="email" required placeholder="Email" class="mb2" >
+          <button type="submit">Follow</button>
+        </form>
+      </div>
+    </div>
+  </footer>
+  <script type="text/javascript" src="menu.js" defer async></script>
+</body>
+
+</html>
